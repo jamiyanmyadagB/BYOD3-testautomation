@@ -9,9 +9,9 @@ pipeline {
             }
         }
 
-        stage('Pull Docker Image') {
+        stage('Build Docker Image') {
             steps {
-                sh 'docker pull csv302lpu/grade-runner:v1'
+                sh 'docker build -t grade-runner .'
             }
         }
 
