@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        RUNNER_IMAGE = 'csv302lpu/grade-runner:v1'
-        REPORT_DIR   = "${WORKSPACE}/surefire-reports"
-    }
-
     stages {
 
         stage('Checkout') {
@@ -14,42 +9,37 @@ pipeline {
             }
         }
 
-        stage('Pull Image') {
+        stage('Pull Docker Image') {
             steps {
-                sh "docker pull ${RUNNER_IMAGE}"
+                sh 'docker pull csv302lpu/grade-runner:v1'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh "mkdir -p ${REPORT_DIR}"
-                sh """
-                    docker run --rm \
-                        -v ${WORKSPACE}:/app \
-                        -v ${REPORT_DIR}:/app/target/surefire-reports \
-                        -w /app \
-                        ${RUNNER_IMAGE} \
-                        mvn test
-                """
-            }
-        }
-
-        stage('Publish Results') {
-            steps {
-                junit "${REPORT_DIR}/*.xml"
+                sh '''
+                docker run --rm \
+                -v $WORKSPACE:/workspace \
+                csv302lpu/grade-runner:v1
+                '''
             }
         }
     }
 
     post {
+
         always {
-            archiveArtifacts artifacts: "surefire-reports/**", allowEmptyArchive: true
+            echo 'Pipeline finished.'
+
+            archiveArtifacts artifacts: '**/*', allowEmptyArchive: true
         }
+
         success {
-            echo 'BUILD PASSED — All GradeHub tests completed successfully.'
+            echo 'BUILD SUCCESS'
         }
+
         failure {
-            echo 'BUILD FAILED — Check test output and console log for details.'
+            echo 'BUILD FAILED'
         }
     }
 }
