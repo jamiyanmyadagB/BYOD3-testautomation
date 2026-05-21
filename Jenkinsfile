@@ -31,23 +31,12 @@ pipeline {
         stage('Run Tests') {
             steps {
                 sh '''
-                POM_PATH=$(find . -name "pom.xml" | head -n 1)
-
-                if [ -z "$POM_PATH" ]; then
-                    echo "ERROR: pom.xml not found!"
-                    exit 1
-                fi
-
-                PROJECT_DIR=$(dirname "$POM_PATH")
-
-                echo "Found pom.xml in: $PROJECT_DIR"
-
-                docker run --rm \
-                    -v $PWD:/workspace \
-                    -w /workspace/$PROJECT_DIR \
-                    grade-runner \
-                    mvn test
-                '''
+        docker run --rm \
+            -v $(pwd):/workspace \
+            -w /workspace \
+            grade-runner \
+            mvn test
+        '''
             }
         }
     }
