@@ -30,13 +30,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh '''
-                docker run --rm \
-                    -v $(pwd):/workspace \
-                    -w /workspace \
-                    grade-runner \
-                    mvn -f grade-tests/pom.xml test
-                '''
+                sh 'docker run --rm grade-runner'
             }
         }
     }
