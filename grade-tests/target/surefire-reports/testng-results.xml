@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T09:06:17 UTC" name="Surefire suite" finished-at="2026-05-21T09:06:29 UTC" duration-ms="11522">
+  <suite started-at="2026-05-21T10:12:47 UTC" name="Surefire suite" finished-at="2026-05-21T10:12:57 UTC" duration-ms="10704">
     <groups>
     </groups>
-    <test started-at="2026-05-21T09:06:17 UTC" name="Surefire test" finished-at="2026-05-21T09:06:29 UTC" duration-ms="11522">
+    <test started-at="2026-05-21T10:12:47 UTC" name="Surefire test" finished-at="2026-05-21T10:12:57 UTC" duration-ms="10704">
       <class name="csv302.GradeApiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:17 UTC" name="setup" finished-at="2026-05-21T09:06:19 UTC" duration-ms="1749" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:47 UTC" name="setup" finished-at="2026-05-21T10:12:49 UTC" duration-ms="2239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCreatePost()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:19 UTC" name="testCreatePost" finished-at="2026-05-21T09:06:26 UTC" duration-ms="7201" status="PASS">
+        <test-method signature="testCreatePost()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:49 UTC" name="testCreatePost" finished-at="2026-05-21T10:12:55 UTC" duration-ms="6055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePost -->
-        <test-method signature="testDeletePost()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:26 UTC" name="testDeletePost" finished-at="2026-05-21T09:06:27 UTC" duration-ms="689" status="PASS">
+        <test-method signature="testDeletePost()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:55 UTC" name="testDeletePost" finished-at="2026-05-21T10:12:56 UTC" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeletePost -->
-        <test-method signature="testGetAllPosts()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:27 UTC" name="testGetAllPosts" finished-at="2026-05-21T09:06:27 UTC" duration-ms="552" status="PASS">
+        <test-method signature="testGetAllPosts()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:56 UTC" name="testGetAllPosts" finished-at="2026-05-21T10:12:57 UTC" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllPosts -->
-        <test-method signature="testGetNonExistentPost()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:27 UTC" name="testGetNonExistentPost" finished-at="2026-05-21T09:06:28 UTC" duration-ms="547" status="PASS">
+        <test-method signature="testGetNonExistentPost()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:57 UTC" name="testGetNonExistentPost" finished-at="2026-05-21T10:12:57 UTC" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetNonExistentPost -->
-        <test-method signature="testGetPostById()[pri:0, instance:csv302.GradeApiTest@dd3b207]" started-at="2026-05-21T09:06:28 UTC" name="testGetPostById" finished-at="2026-05-21T09:06:29 UTC" duration-ms="616" status="PASS">
+        <test-method signature="testGetPostById()[pri:0, instance:csv302.GradeApiTest@5762806e]" started-at="2026-05-21T10:12:57 UTC" name="testGetPostById" finished-at="2026-05-21T10:12:57 UTC" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPostById -->

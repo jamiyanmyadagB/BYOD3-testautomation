@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csv302.GradeApiTest" time="12.891" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="csv302.GradeApiTest" time="12.27" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/app/target/test-classes:/app/target/classes:/root/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/root/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/root/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/root/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/root/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/root/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/root/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/root/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.class.path" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/test-classes:/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/classes:/home/koorkon/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/koorkon/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/koorkon/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/koorkon/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/koorkon/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/koorkon/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/koorkon/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/koorkon/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/koorkon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/koorkon/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/koorkon/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/koorkon/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="user.timezone" value="Etc/UTC"/>
     <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/opt/java/openjdk/lib"/>
-    <property name="sun.java.command" value="/app/target/surefire/surefirebooter-20260521090616369_3.jar /app/target/surefire 2026-05-21T09-06-15_320-jvmRun1 surefire-20260521090616369_1tmp surefire_0-20260521090616369_2tmp"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/surefire/surefirebooter-20260521101245396_3.jar /mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/surefire 2026-05-21T10-12-45_133-jvmRun1 surefire-20260521101245396_1tmp surefire_0-20260521101245396_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/app/target/test-classes:/app/target/classes:/root/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/root/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/root/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/root/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/root/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/root/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/root/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/root/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="surefire.test.class.path" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/test-classes:/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/classes:/home/koorkon/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/koorkon/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/koorkon/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/koorkon/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/koorkon/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/koorkon/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/koorkon/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/koorkon/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/koorkon/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/koorkon/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/koorkon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/koorkon/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/koorkon/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/koorkon/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/root"/>
+    <property name="user.home" value="/home/koorkon"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-04-16"/>
-    <property name="java.home" value="/opt/java/openjdk"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/app"/>
+    <property name="basedir" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/app/target/surefire/surefirebooter-20260521090616369_3.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests/target/surefire/surefirebooter-20260521101245396_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.11+9"/>
-    <property name="user.name" value="root"/>
+    <property name="java.runtime.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="user.name" value="koorkon"/>
+    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="6.6.87.2-microsoft-standard-WSL2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.11+9"/>
-    <property name="localRepository" value="/root/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="localRepository" value="/home/koorkon/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="17.0.11"/>
-    <property name="user.dir" value="/app"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="/mnt/d/6thsemester/TestAutomation/BYOD3/grade-tests"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.11+9"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.10+7-Ubuntu-124.04"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testCreatePost" classname="csv302.GradeApiTest" time="7.21">
+  <testcase name="testCreatePost" classname="csv302.GradeApiTest" time="6.059">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testDeletePost" classname="csv302.GradeApiTest" time="0.689"/>
-  <testcase name="testGetAllPosts" classname="csv302.GradeApiTest" time="0.551"/>
-  <testcase name="testGetNonExistentPost" classname="csv302.GradeApiTest" time="0.548"/>
-  <testcase name="testGetPostById" classname="csv302.GradeApiTest" time="0.617"/>
+  <testcase name="testDeletePost" classname="csv302.GradeApiTest" time="0.636"/>
+  <testcase name="testGetAllPosts" classname="csv302.GradeApiTest" time="0.662"/>
+  <testcase name="testGetNonExistentPost" classname="csv302.GradeApiTest" time="0.4"/>
+  <testcase name="testGetPostById" classname="csv302.GradeApiTest" time="0.547"/>
 </testsuite>

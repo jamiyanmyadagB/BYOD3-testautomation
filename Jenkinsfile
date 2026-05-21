@@ -17,11 +17,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh '''
-                docker run --rm \
-                -v $WORKSPACE:/workspace \
-                csv302lpu/grade-runner:v1
-                '''
+                sh 'docker run --rm -v $PWD:/workspace -w /workspace grade-runner mvn test'
             }
         }
     }
